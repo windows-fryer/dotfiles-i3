@@ -1,5 +1,116 @@
-configuration {
- font: "Jetbrains Mono NF 9";
+window {
+  padding: 5px;
+  margin: 0px;
+
+  border: 1px;
+  border-color: #323232;
+  border-radius: 0px;
+
+  background-color: #1e1e1e;
+
+  font: "JetBrains Mono NF 12";
 }
 
-@theme "Arc-Dark"
+mainbox {
+  background-color: #1e1e1e;
+}
+
+inputbar, prompt, entry {
+  background-color: #1e1e1e;
+
+  font: "JetBrains Mono NF 12";
+
+  text-color: #ffffff;
+
+  border-color: #646464;
+}
+
+message {
+  border-color: #646464;
+}
+
+textbox {
+  text-color: #ffffff;
+}
+
+listview {
+  background-color: #1e1e1e;
+
+  scrollbar: false;
+
+  border-color: #646464;
+}
+
+element {
+  background-color: #1e1e1e;
+
+  padding: 5px;
+  margin: 2.5px 0px 2.5px 0px;
+}
+
+element-text {
+  text-color: #ffffff;
+}
+
+element.normal.normal {
+  background-color: #1e1e1e;
+  
+  border: 1px;
+  border-color: #323232;
+}
+
+element.normal.urgent {
+  background-color: #ff6464;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.normal.active {
+  background-color: #141414;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.selected.normal {
+  background-color: #141414;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.selected.urgent {
+  background-color: #ff6464;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.selected.active {
+  background-color: #141414;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.alternate.normal {
+  background-color: #1e1e1e;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.alternate.urgent {
+  background-color: #ff6464;
+
+  border: 1px;
+  border-color: #323232;
+}
+
+element.alternate.active {
+  background-color: #141414;
+
+  border: 1px;
+  border-color: #323232;
+}
